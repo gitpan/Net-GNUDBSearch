@@ -1,0 +1,32 @@
+---
+abstract: 'Search interface to GNUDB database'
+author:
+  - 'MacGyveR <dumb@cpan.org>'
+build_requires:
+  Test::More: 0
+configure_requires:
+  Module::Build: 0.36
+generated_by: 'Module::Build version 0.3603'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Net-GNUDBSearch
+provides:
+  Net::GNUDB::Cd:
+    file: lib/Net/GNUDB/Cd.pm
+  Net::GNUDBSearch:
+    file: lib/Net/GNUDBSearch.pm
+    version: 1.0
+  Net::GNUDBSearch::Cd:
+    file: lib/Net/GNUDBSearch/Cd.pm
+requires:
+  Carp: 0
+  Data::Dumper: 0
+  Net::FreeDB2: 0
+  URI::Encode: 0
+  WWW::Mechanize: 0
+  XML::Simple: 0
+resources:
+  license: http://dev.perl.org/licenses/
+version: 1.0
